@@ -1,0 +1,41 @@
+html {
+  text-rendering: optimizeLegibility;
+  font-size: 1em;
+  background-color: #0F6DC2;
+}
+
+#content {
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+  color: white;
+  border-radius: 2em;
+  font-size: 2em;
+  font-family: 'Amiri', serif;
+  box-sizing: border-box;
+  background-color: #23953C;
+}
+
+#who {
+  color: #FFFD00;
+  box-sizing: border-box;
+  font-family: 'Crimson Text', serif;
+  text-align: center;
+  font-size: 1.5em;
+  border-radius: 2em;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+#origin {
+  color: #FFFD00;
+  box-sizing: border-box;
+  font-family: 'Crimson Text', serif;
+  text-align: center;
+  font-size: 1.5em;
+  border-radius: 2em;
+  margin-left: 5%;
+  margin-right: 5%;
+}
