@@ -1,7 +1,7 @@
 html {
   text-rendering: optimizeLegibility;
   font-size: 1em;
-  background-color: #0F6DC2;
+  background-color: #27379C;
 }
 
 #content {
@@ -38,4 +38,23 @@ h1 {
   border-radius: 2em;
   margin-left: 5%;
   margin-right: 5%;
+}
+
+#events {
+  color: #FFFD00;
+  box-sizing: border-box;
+  font-family: 'Crimson Text', serif;
+  font-size: 1.5em;
+  border-radius: 2em;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+ul {
+  list-style-type: none;
+  padding: 11px 21px;
+  border-left: 6px solid #C6C52E;
+  border-right: 6px solid #C6C52E;
+  background-color: #2D3A88;
+  text-align: center;
 }
