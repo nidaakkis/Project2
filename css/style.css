@@ -36,6 +36,7 @@ h1 {
   text-align: center;
   font-size: 1.5em;
   border-radius: 2em;
+  padding-bottom: 35px;
   margin-left: 5%;
   margin-right: 5%;
 }
@@ -50,11 +51,24 @@ h1 {
   margin-right: 5%;
 }
 
-ul {
+p {
+  border-left: 6px solid #C6C52E;
+  border-right: 6px solid #C6C52E;
+  background-color: #2D3A88;
+  box-sizing: border-box;
+  border-radius: 2em;
+  padding: 13px 21px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+#events ul li{
   list-style-type: none;
   padding: 11px 21px;
   border-left: 6px solid #C6C52E;
   border-right: 6px solid #C6C52E;
   background-color: #2D3A88;
   text-align: center;
+  box-sizing: border-box;
+  border-radius: 1em;
 }
