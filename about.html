@@ -4,25 +4,25 @@
     <title>About Us Page</title>
 	<meta charset="UTF-8">
 	<link rel="stylesheet" media="screen" href="css/reset.css" />
-	<link rel="stylesheet" media="screen" href="css/style.css" />
 	<link rel="stylesheet" media="screen" href="css/navandfooter.css">
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Amiri:wght@700&family=Anton&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Amiri:wght@700&family=Anton&family=Crimson+Text&display=swap" rel="stylesheet">
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" rel="stylesheet">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 	<script src="js/script.js"></script>
   </head>
   <body>
-	<header>
-      <a href="about.html"><img src= "images/logo.jpg" alt = "logo picture"></a>
-	</header>
-	<nav class="top-bar">
-      <div class="top-bar-selection">
-		<ul class="left">
-		  <li class="active<a href="#">Home</a><li>
-		  <li><a href="about.html">About Us</a><li>
-		  <li><a href="contact.html">Contact us</a></li>
-		</ul>
+	<nav>
+	  <div class="topnav" id="myTopnav">
+	    <div class="logo">
+	      <img src="images/logo.jpg" alt="logo" onClick="myLogoClick()">
+	    </div>
+		<a href="index.html">Home</a>
+		<a href="contact.html">Contact Us</a>
+		<a href="#" class="active">About Us</a>
+		<a href="javascript:void(0);" class="icon" onclick="myFunction()"><i class="fa fa-bars"></i></a>
 	  </div>
 	</nav>
 	<div id="who">
@@ -55,6 +55,21 @@
 		<li>2018 - 12th World Congress in Lima, Peru </li>
 	  </ul>
 	</div>	
+	<div class="footer-wrapper">
+	  <div class="row">
+		<h3><strong>International Society for Universal Dialogue</strong></h3>
+	  </div>
+	  <div class="social-links">
+		<ul>
+		  <li><a href="https://www.facebook.com/"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+		  <li><a href="https://www.instagram.com/internationalsociety/?hl=en"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+		  <li><a href="https://www.linkedin.com/company/unavailable/"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+		</ul>
+	  </div>
+	  <div class="footer-notes">
+	    <p> &copy; 2021 by Nida Akkiswala, Eduardo Carbo, Oleksandr Lemeha</p>
+	  </div>
+    </div>	
     </body>
 </html>
 			
